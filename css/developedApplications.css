@@ -1,0 +1,46 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, san-seriff;
+    font-size: 20px;
+}
+
+body{
+    background-color: lightblue;
+    background: linear-gradient(to right, lightyellow, rgb(237, 248, 63));
+}
+
+.container
+{
+    align-content: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.showcase{
+    width: 30%;
+    padding:20x;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+img{
+    width: 300px;
+}
+
+.links{
+    justify-content: space-between;
+    display: flex;
+    align-content: center;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+}
